@@ -34,3 +34,43 @@ section{
     margin-top: 20px;
     box-shadow: 2px 2px 6px tomato;
 }
+#contenar{
+    width:1100px;
+    margin:0 auto;
+}
+.donate-head{
+    width:600px;
+    margin:0 auto;
+    text-align:center;
+}
+.main-head-line{
+    font-size: 40px;
+    margin:0;
+}
+.Amount{
+    display:flex;
+}
+.Amount h1{
+    width:100px;
+    margin:10px;
+    color:rgb(78, 78, 78);
+    padding:30px 50px;
+    border-radius:8px;
+    text-align:center;
+    font-size: 35px;
+    background-color:rgb(231, 231, 231);
+}
+.amount-jar{
+    border:2px solid tomato;
+   
+}
+.another-amount{
+    text-align:center;
+    width:200px;
+    margin:0 auto;
+}
+.another-amount p{
+    border-bottom:1px solid rgb(170, 170, 170);
+    padding:5px;
+    color:rgb(133, 131, 131);
+}
