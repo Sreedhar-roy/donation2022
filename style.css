@@ -131,5 +131,22 @@ section{
 .form h5{
     font-size: 15px;
     margin:0;
-
+}
+.form img{
+    font-size:20px;
+    border-radius:100%;
+    border:1px solid black;
+    color:white;
+}
+footer{
+    background:rgb(32, 32, 32);
+    text-align:center;
+    padding:50px 0px 40px 0px;
+}
+.footer-line{
+    color:rgb(241, 129, 109);
+    margin:0;
+}
+footer span{
+    color:rgb(136, 136, 136);
 }
