@@ -112,10 +112,12 @@ section{
     margin:10px;
     color:white;
     border-radius:5px;
+    position: relative;
+    z-index: 10;
 }
 .form{
     width:320px;
-    margin:25px;
+    margin:25px;   
 }
 .input-box{
     padding:10px;
@@ -127,6 +129,7 @@ section{
     color:white;
     margin-left: -18px;
     border-bottom-right-radius:10px;
+    margin-bottom:-20px;
 }
 .form h5{
     font-size: 15px;
@@ -141,7 +144,8 @@ section{
 footer{
     background:rgb(32, 32, 32);
     text-align:center;
-    padding:50px 0px 40px 0px;
+    padding-top:60px;
+    margin-top:-30px;
 }
 .footer-line{
     color:rgb(241, 129, 109);
