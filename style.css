@@ -107,45 +107,62 @@ section{
     height: 400px;
 }
 .sucribe-form{
-    background:red;
+    background:tomato;
     display:flex;
     margin:10px;
-    color:white;
+    color:rgb(24, 23, 23);
     border-radius:5px;
     position: relative;
     z-index: 10;
-}
+    padding-bottom: 20px;
+    font-family: 'Oswald',sans sarif;
+    font-weight: 300;
+  }
 .form{
-    width:320px;
-    margin:25px;   
+    width:330px; 
+    margin-left:70px; 
 }
 .input-box{
     padding:10px;
     border-top-left-radius:15px;
 }
+.updates{
+    text-align:center;
+    width:400px;
+    margin:0 auto;
+    border-bottom:1px solid rgb(19, 18, 18);
+    margin-bottom:50px;
+}
 .sucribe-button{
-    padding:11px;
+    padding:10px;
     background:black;
     color:white;
     margin-left: -18px;
     border-bottom-right-radius:10px;
     margin-bottom:-20px;
 }
-.form h5{
+.form h1{
+    font-size: 25px;
+}
+.form p{
     font-size: 15px;
     margin:0;
 }
-.form img{
-    font-size:20px;
-    border-radius:100%;
-    border:1px solid black;
-    color:white;
+.form a{
+    font-size:15px;
+    border-radius:50%;
+    border:1px solid rgb(0, 0, 0);
+    padding:5px;
+    width:50px;
+    color:rgb(12, 12, 12);
+    margin:5px;
 }
 footer{
     background:rgb(32, 32, 32);
     text-align:center;
-    padding-top:60px;
-    margin-top:-30px;
+    padding-top:80px;
+    padding-bottom:50px;
+    margin-top:-40px;
 }
 .footer-line{
     color:rgb(241, 129, 109);
